@@ -7,7 +7,7 @@ export default function ProjectDetails({ params }) {
   const [project, setProject] = useState(null);
 
   useEffect(() => {
-    fetch("/data/blogs.json")
+    fetch("/data/projectCards.json")
       .then((res) => res.json())
       .then((data) => {
         const found = data.find((b) => b.id.toString() === id);
@@ -15,8 +15,8 @@ export default function ProjectDetails({ params }) {
       });
   }, [id]);
 
-  if (!blog) {
-    return <div className="p-8">Blog not found.</div>;
+  if (!project) {
+    return <div className="p-8">Project not found.</div>;
   }
 
   return (
