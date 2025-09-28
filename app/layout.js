@@ -4,7 +4,7 @@ import Footer from "../components/Footer"; // Adjust path if needed
 
 export const metadata = {
   title: "Portfolio Website",
-  description: "A showcase of developer blogs.",
+  description: "Portfolio website with a dark mode feature. Open-source, built with Next.js.",
 };
 
 export default function RootLayout({ children }) {

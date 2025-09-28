@@ -13,7 +13,7 @@ export default function Navbar() {
         </div>
         <div className="text-[#EDE587] text-sm mt-1">
           <Typewriter
-            words={['Discover, Learn, Create', 'Read Amazing Blogs.', 'Inspire the Community']}
+            words={['Explore My Projects','Build, Learn, Innovate','AI, Web, and Games','Check Out My Achievements']}
             loop={0}
             cursor
             cursorStyle="_"

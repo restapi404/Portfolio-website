@@ -30,7 +30,7 @@ export default function Projects() {
 
   return (
     <div className="p-8">
-      <h2 className="text-[#750000] text-3xl font-bold mb-6 dark:text-[#4C4CA8]">All Blogs</h2>
+      <h2 className="text-[#750000] text-3xl font-bold mb-6 dark:text-[#4C4CA8]">All Projects</h2>
       <SearchBar onSearch={handleSearch} />
       <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {filtered.map((project) => (
