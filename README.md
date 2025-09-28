@@ -40,8 +40,7 @@ npm run dev
 - Commit and deploy to update the live site.
 
 ## Screenshots
-<img src="public/homepage.png" alt="home page" width="500">
-<img src="public/projects.png" alt="project page" width="500">
+
 
 ## Contribution
 Feel free to fork, submit issues, or open pull requests to improve the project.
